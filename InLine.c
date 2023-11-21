@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#define DEBUGON 1
+#define DEBUGLEVEL 0
 
 void main (void) {
     int i;
 
-#if DEBUGON == 1
+#if DEBUGLEVEL > 0
     printf("Hello World\n");
 #endif
 
